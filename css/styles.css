@@ -6,7 +6,7 @@ body {
     background-color: #ff4c68;
 }
 
-.btn {
+.download-btn {
     margin-right: 10px;
 }
 
@@ -15,24 +15,26 @@ body {
 }
 
 .img-phone {
+    width: 60%;
     transform: rotate(13deg);
 }
 
 h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
     margin-bottom: 30px;
 }
 
 .navbar {
-    margin-bottom: 70px;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
     font-size: 50px;
     font-weight: 500;
+    font-family: "Ubuntu";
 }
 
 .nav-item {
