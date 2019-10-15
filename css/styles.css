@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -47,12 +47,15 @@ h2 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* features */
 #features {
     background-color: white;
-    margin: 200px 0px;
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
 }
 
 #features .feat-col {
@@ -105,4 +108,16 @@ h2 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    text-align: center;
 }
